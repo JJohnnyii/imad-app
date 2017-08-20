@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/cnt1', function (req, res) {
-  res.send('trying redirect'));
+  res.send('trying redirect');
 });
 
 app.get('/ui/style.css', function (req, res) {
